@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Environments
+.env
+.venv/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+
+# Ignore contents of satellite data folders
+data/satellite/pre_event/*
+data/satellite/post_event/*
+
+# Keep the folder structure
+!data/satellite/pre_event/.gitkeep
+!data/satellite/post_event/.gitkeep
+
+# Download temp directory
+downloaded_products/
+*.SAFE/
+*.zip
